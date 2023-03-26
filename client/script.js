@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
 
 
 
-    const response = await fetch('https://codex-render-vercel.onrender.com', {
+    const response = await fetch('https://codex-render-vercel.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
